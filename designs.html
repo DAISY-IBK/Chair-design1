@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,
+        wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,
+        900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+        rel="stylesheet">
+        <title>designs</title>
+
+        <style>
+            body {
+             background-color: #f7eedb; /* base color similar to the background */
+             font-family: "Poppins", sans-serif;
+            }
+
+            .container{
+            
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 0 2rem;
+            }
+
+             .list-1 .header img{
+                width: 100%; 
+                max-width: 290px; 
+                height: auto; 
+                border-radius: 10px;
+                display: block;
+            }
+
+            .header{
+                display: flex;
+            }
+
+            .list-1{
+                /* display: flex; */
+                align-items: center;
+                justify-content: space-between;
+                padding: 60px 30px;
+                max-width: 1200px;
+                margin: 0 auto;
+                gap: 48px;
+            }
+
+            .header h2{
+                font-size: 35px;
+                font-weight: bold;
+                color: #1e1e1e;
+                margin-bottom: 20px;
+            }
+
+            .header .all-header .write-up {
+                font-size: 16px;
+                line-height: 28px;
+                color: #444;
+                margin-bottom: 32px;
+                max-width: 600px;
+            }
+
+            .all-header{
+                margin-right: 30px;
+            }
+            
+            .header button{
+                background-color: #02672e;
+                border: none ;
+                padding: 8px 11px;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+            .header .button1{
+                color: white;
+                text-decoration: none;
+                font-size: 15px;
+                font-weight: 500;
+                 
+            }
+
+            button:hover {
+            background-color: #06af4f;
+            }
+
+
+            .list-2{
+                margin: 80px 0;
+                
+            }
+
+            .list-2 h3{
+                line-height: 28px;
+                font-size: 30px;
+            }
+
+            
+
+            .lists-sub{
+                color: #444;
+            }
+
+            .list-2 .icon{
+                margin:10px;
+                font-size:20px;
+                color:#02672e;
+                z-index: 100;
+            }
+
+
+
+            
+            .products-section {
+                padding: 60px 30px;
+                background-color: #f7eedb;
+                /* text-align: center; */
+            }
+
+            .products-section h2 {
+                font-size: 28px;
+                margin-bottom: 40px;
+                color: #1e1e1e;
+            }
+
+            .product-grid {
+                display: flex;
+               
+                gap: 30px;
+                justify-content: center;
+            }
+
+            .product-card {
+            padding-bottom: 20px;
+            width: 300px;
+            box-shadow: 10px 9px 15px 20px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-inline: 10px;
+            }
+
+            .product-card img {
+            width: 100%;
+            height: 137px;
+            margin-bottom: 15px;
+            }
+
+            .product-card h3 {
+            font-size: 20px;
+            color: #1e1e1e;
+            margin-bottom: 10px;
+            }
+
+            .features {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 15px;
+            font-size: 14px;
+            color: #444;
+            text-align: left;
+            }
+
+            .card-icon{
+                color: #02672e; 
+                padding-right: 10px;
+            }
+/* 
+            .features li::before {
+            content: "✔";
+            margin-right: 8px;
+            color: #3a6457;
+            } */
+
+            .price {
+            font-weight: bold;
+            color: #02672e;
+            padding-right:40px ;
+            /* margin-bottom: 15px; */
+            }
+
+            .products-section .add-btn {
+            background-color: #02672e;
+            background-size: 15px;
+            font-size: 15px;
+            size: 10px;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            }
+
+            .add-btn:hover {
+            background-color: #06af4f;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- section 1 -->
+            <setion class="list-1">
+                <div class="header">
+                    <div class="all-header">
+                        <h2>
+                            We design and build better chairs, for a better life
+                        </h2>
+                        <p class="write-up">
+                            In a small shop in the heart of Lisbon,
+                            we spend our days relentlessly perfecting the chair. 
+                            The result is a perfect blend of beauty and comfort, 
+                            that will have a lasting impact on your health.
+                        </p>
+                        <!-- shop now button -->
+                        <button> 
+                            <a href="#" class="button1"> Shop Chairs</a>
+                        </button>
+                    </div>
+                    <!-- image 1 -->
+                    <img src="design img 1.jpg">
+                </div>
+            </section>
+
+            <!-- section 2 -->
+            <section class="list-2">
+            <div class="wmocs">
+                <h3>What makes our chairs special</h3>
+
+                <div class="lists" style="display: flex;">
+                    <li type="none" class="lists-sub" >
+                        <ol >
+                            <i class="fa-solid fa-flask icon"></i>
+                            <h4>  Science meets design  </h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus similique adipisci praesentium.
+                            </p>
+                        </ol>
+                    </li>
+                    
+                    <li type="none" class="lists-sub">
+                        <ol >
+                        <i  class="fa-regular fa-face-smile icon"></i>
+                            <h4> Maximal comfort </h4>
+                            <p> Reprehenderit optio placeat quasi excepturi architecto, explicabo facilis perspiciatis error maxime magnam.
+                            </p>
+                        </ol>
+                    </li>
+
+                    <li type="none" class="lists-sub">
+                        <ol >
+                            <i class="fa-solid fa-graduation-cap icon"></i>
+                            <h4>  Ethical and sustainable   </h4>
+                            <p>Deleniti recusandae quidem nesciunt, eos dolorum iure, quaerat omnis est laudantium voluptatem voluptas!
+                            </p>
+                        </ol>
+                    </li>
+                </div>
+
+            </div>
+            </section>
+
+
+             <!-- section 3 -->
+            <section class="list-3" style=" background-color: #02672e; padding: 15px;">
+                
+                <div class="hero-word" style="display:flex;">
+                    <img src="design img 2.jpg" style="width: 150px; height: 150px; ">
+
+                    <div style="display: flex; align-items: center; justify-content: center;">
+                        <div class="statement" style="margin-left: 60px; color: white; ">
+                            <h3>"We couldn't live without these chairs anymore"</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolor repellat at, nesciunt quia cum minima ipsum culpa totam sapiente 
+                                recusandae earum debitis doloribus in quasi voluptatibus!</p>
+                            <p>- Mary and Sarah Johnson</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section 4 -->
+            <!-- <section class="list-4">
+                <div class="obc">
+                    <h4>Our bestselling chairs</h4>
+                    
+                    <div class="goods">
+                        <
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="products-section">
+                <h2>Our bestselling chairs</h2>
+
+                <div class="product-grid">
+                    <!-- Product Card -->
+                    <div class="product-card">
+                        <img src="design img 3.jpg" alt="The Laid Back Chair">
+                        <h3>The Laid Back</h3>
+                        <ul class="features">
+
+                            <div class="" style="display: flex; ">
+                                <i class="fa-regular fa-star card-icon"></i>
+                                <li>Leisure and relaxing</li>
+                            </div><br>
+
+                            <div style="display: flex;">
+                                <i class="fa-regular fa-clock card-icon" ></i>
+                                <li>Comfortable for 8h</li>
+                            </div><br>
+
+                            <div style="display: flex;">
+                                <i class="fa-solid fa-earth-americas card-icon"></i>
+                                <li>Vegan leather</li>
+                            </div><br>
+
+                            <div style="display: flex;">
+                                <i class="fa-solid fa-box card-icon"></i>
+                            <li>Weighs 10 kg</li>
+                            </div>
+                        </ul>
+                        <div style="display: flex; ">
+                        <p class="price">250€</p>
+                        <button class="add-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class="product-card">
+                        <img src="design img 4.jpg" alt="The Laid Back Chair" >
+                        <h3>The Worker Bee</h3>
+                        <ul class="features">
+
+                            <div class="" style="display: flex; ">
+                                <i class="fa-regular fa-star card-icon" ></i>
+                                <li>Work</li>
+                            </div><br>
+
+                            <div style="display: flex;">
+                                <i class="fa-regular fa-clock card-icon" ></i>
+                                <li>Comfortable for 8h</li>
+                            </div><br>
+
+                            <div style="display: flex;">
+                                <i class="fa-solid fa-earth-americas card-icon" ></i>
+                                <li>Vegan leather</li>
+                            </div><br>
+
+                            <div style="display: flex;">
+                                <i class="fa-solid fa-box  card-icon"></i>
+                            <li>Weighs 22 kg</li>
+                            </div>
+                        </ul>
+                        <div style="display: flex; ">
+                        <p class="price">525€</p>
+                        <button type="button" class="add-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="product-card">
+                        <img src="design img 5.jpg" alt="The Laid Back Chair">
+                        <h3>The Chair 4/2</h3>
+                        <ul class="features">
+
+                            <div class="card-icons" style="display: flex; ">
+                                <i class="fa-regular fa-star card-icon"></i>
+                                <li>Leisure and relaxing</li>
+                            </div><br>
+
+                            <div style="display: flex;">
+                                <i class="fa-regular fa-clock card-icon"></i>
+                                <li>Comfortable all day</li>
+                            </div><br>
+
+                            <div style="display: flex;">
+                                <i class="fa-solid fa-earth-americas card-icon"></i>
+                                <li>Organic cotton</li>
+                            </div><br>
+
+                            <div style="display: flex;">
+                                <i class="fa-solid fa-box  card-icon"></i>
+                            <li>Weighs 80 kg</li>
+                            </div>
+                        </ul>
+                        <div style="display: flex;">
+                        <p class="price" >1450€</p>
+                        <button class="add-btn">Add to cart</button>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Repeat .product-card for other chairs -->
+                </div>
+           </section>
+
+        </div>
+    </body>
+</html>
